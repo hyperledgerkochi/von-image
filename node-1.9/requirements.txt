@@ -8,3 +8,5 @@ indy-anoncreds-dev==1.0.46
 indy-node==1.9.0
 ##indy-plenum-dev==1.6.726
 indy-crypto==0.5.1 # override plenum dependency
+
+pip>=19.2 # not directly required, pinned by Snyk to avoid a vulnerability
