@@ -1,5 +1,5 @@
 aiodns~=1.2.0
-aiohttp~=3.3.0
+aiohttp~=3.9.4
 aiosqlite~=0.7.0
 base58~=1.0.0
 cchardet~=2.1.0
@@ -8,3 +8,5 @@ indy-anoncreds-dev==1.0.46
 indy-node==1.7.0.dev902
 ##indy-plenum-dev==1.6.726
 indy-crypto>=0.5.1 # override plenum dependency
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
