@@ -4,3 +4,4 @@ aiosqlite~=0.7.0
 base58~=1.0.0
 cchardet~=2.1.0
 rlp~=0.6.0
+pycares>=4.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
